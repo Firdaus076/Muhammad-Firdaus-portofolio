@@ -1,0 +1,137 @@
+body{
+    background-color: bisque
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+.name { 
+    text-align: center;
+    border: brown ridge;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80%;
+    font-family: 'Inconsolata', monospace;
+    color: brown;
+}
+
+.Dean {
+    font-size: 30px;
+    color:  brown;
+    text-align: center;
+    font-family: 'Bonheur Royale', cursive;
+    animation-name: berubah;
+    animation-duration: 3s;
+}
+
+@keyframes berubah {
+    0%   {color:  blue;}
+    25%  {color:  red;}
+    50%  {color:  yellow;}
+    75%  {color:  green;}
+    100%  {color:  blue;}
+}
+
+img.tengah {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+  border: 6px double #483C32;
+  box-shadow: 5px brown inset, 0 0 0 11px rgb(180, 130, 90), 0 0 30px rgba(0, 0, 0, 0.8) inset;
+  border-radius: 50%;
+}
+
+:root {
+    --warnacokelat: brown;
+    --salju: snow;
+}
+
+.Halo {
+    background-color: var(--warnacokelat);
+    text-align: center;
+    border: 5px ridge var(--warnacokelat);
+    color: var(--salju);
+    line-height: 90%;
+}
+
+.Info {
+    background-color: var(--warnacokelat);
+    text-align: center;
+    border: 5px ridge var(--warnacokelat);
+    color: var(--salju);
+}
+
+.nama {
+    text-align: center;
+    color: var(--warnacokelat);
+}
+
+.Pendidikan {
+    background-color: var(--warnacokelat);
+    text-align: center;
+    border: 5px ridge var(--warnacokelat);
+    margin: auto;
+    color: var(--salju);
+}
+
+.Pres {
+    background-color: var(--warnacokelat);
+    text-align: center;
+    border: 5px ridge var(--warnacokelat);
+    color: var(--salju);
+}
+
+.Rank {
+    text-align: center;
+    color: var(--warnacokelat);
+}
+
+.WEB {
+    background-color: var(--warnacokelat);
+    text-align: center;
+    border: 5px ridge var(--warnacokelat);
+    color: var(--salju);
+}
+
+.ul-1>.li-1{
+    color: black;
+    font-size: 20px;
+}
+
+.ul-2>.li-2{
+    color: black;
+    font-size: 20px;
+}
+
+.ul-3>.li-3{
+    color: black;
+    font-size: 20px;
+}
+img.SMK {
+    margin: auto;
+    border-radius: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+img.Kejar {
+    margin: auto;
+    border-radius: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+img.W {
+    margin: auto;
+    border-radius: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 100px;
+    height: 100px;
+}
